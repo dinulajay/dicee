@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+      
+      
+      <link rel="icon" href="images/dice.png">
+<!--Stylesheets-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+<!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  </head>
+  <body>
+      
+      <section class="container">
+
+          <div class=" score-board">
+          
+          <h1 class="back-button start">ScoreBoard</h1>
+          
+          <button class="back-button start btn btn-outline-light">
+            BACK
+            </button>
+          
+      <table class="table table-bordered table-dark col-10  start">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td class="player1"></td>
+    </tr>
+      <tr>
+      <th scope="row">2</th>
+      <td class="player2"></td>
+    </tr>
+      <tr>
+      <th scope="row">3</th>
+      <td class="player3"></td>
+    </tr>
+      <tr>
+      <th scope="row">4</th>
+      <td class="player4"></td>
+    </tr>
+      <tr>
+      <th scope="row">5</th>
+      <td class="player5"></td>
+    </tr>
+      <tr>
+      <th scope="row">6</th>
+      <td class="player6"></td>
+    </tr>
+      <tr>
+      <th scope="row">7</th>
+      <td class="player7"></td>
+    </tr>
+      <tr>
+      <th scope="row">8</th>
+      <td class="player8"></td>
+    </tr>
+      <tr>
+      <th scope="row">9</th>
+      <td class="player9"></td>
+    </tr>
+      <tr>
+      <th scope="row">10</th>
+      <td class="player10"></td>
+    </tr>
+  </tbody>
+</table>
+              </div>
+          </section>
+      
+      <section class="main">
+      
+    <div class="container">
+        <h1 class="start">සුබ අලුත් අවුරුද්දක් වේවා</h1>
+        
+    <div class="container cube-outline start">
+      <div class="cube cube-start">
+          <div class="cube-face cube-face--front"><br>.</div>
+          <div class="cube-face cube-face--back">..</div>
+          <div class="cube-face cube-face--top ">...</div>
+          <div class="cube-face cube-face--bottom">..<br>..</div>
+          <div class="cube-face cube-face--left">..<br>.<br>..</div>
+          <div class="cube-face cube-face--right">...<br>...</div>
+          </div>
+      </div>
+        
+        <div class="roll">
+            
+            <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">Seconds</span>
+  </div>
+</div>
+            
+            <button class="start start-button btn btn-outline-light">
+            ROLL THE DICE
+            </button>
+            <button class="start score-button btn btn-outline-light ml-5">
+            SCOREBOARD
+            </button>
+            
+            </div>
+            <div class="progress expandable">
+            <div class="bar">
+                
+            </div>
+        </div>
+        
+              
+<div class="blog">
+    www 🎲 dinulablog 🎲 com
+  </div>
+
+    </div>
+          
+      </section>
+
+<button type="button" class="dark-mode start btn btn-light">🌑</button>
+      
+<button type="button" class="light-mode btn btn-light start">🔆</button>
+
+      
+<!--Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!--Chance-->
+<script type="text/javascript" src="bower_components/chance/chance.js"></script>
+
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      
+      
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.13.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+
+https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.13.2/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+      
+<!--Local js-->
+<script src="index.js"></script>
+      
+
+  </body>
+
+</html>
