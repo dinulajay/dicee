@@ -14,6 +14,7 @@ Several screenshots
 Also a gif
 
 ![](dicee.gif)
+
 Don't worry! animations are much smoother in the website.
 
 Website is made targeting a local holiday.
