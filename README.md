@@ -19,4 +19,4 @@ Don't worry! animations are much smoother in the website.
 
 Website is made targeting a local holiday.
 
-Made from HTML, CSS and Javascript.
+Whole thing is made using HTML, CSS and Javascript.
