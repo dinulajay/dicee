@@ -224,3 +224,13 @@ button{
 .heading{
     display: none;
 }
+
+/* Phone sizes */
+
+@media (max-width:600px){
+ 
+  h1{
+      font-size: 3rem; 
+  }
+  
+}
